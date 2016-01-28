@@ -12,6 +12,8 @@
 		65A4AFD01C598F86008080EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A4AFCE1C598F86008080EC /* Main.storyboard */; };
 		65A4AFD21C598F86008080EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A4AFD11C598F86008080EC /* Assets.xcassets */; };
 		65A4AFD51C598F86008080EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A4AFD31C598F86008080EC /* LaunchScreen.storyboard */; };
+		65A4AFDD1C5990E7008080EC /* ConectionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4AFDC1C5990E7008080EC /* ConectionAPI.swift */; };
+		65A4AFE01C599544008080EC /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4AFDF1C599544008080EC /* Show.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		65A4AFD11C598F86008080EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65A4AFD41C598F86008080EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65A4AFD61C598F86008080EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A4AFDC1C5990E7008080EC /* ConectionAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConectionAPI.swift; sourceTree = "<group>"; };
+		65A4AFDF1C599544008080EC /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		65A4AFC91C598F86008080EC /* Mobint */ = {
 			isa = PBXGroup;
 			children = (
+				65A4AFDE1C599525008080EC /* API */,
 				65A4AFCA1C598F86008080EC /* AppDelegate.swift */,
 				65A4AFCC1C598F86008080EC /* ViewController.swift */,
 				65A4AFCE1C598F86008080EC /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				65A4AFD61C598F86008080EC /* Info.plist */,
 			);
 			path = Mobint;
+			sourceTree = "<group>";
+		};
+		65A4AFDE1C599525008080EC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				65A4AFDC1C5990E7008080EC /* ConectionAPI.swift */,
+				65A4AFDF1C599544008080EC /* Show.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65A4AFCD1C598F86008080EC /* ViewController.swift in Sources */,
+				65A4AFDD1C5990E7008080EC /* ConectionAPI.swift in Sources */,
+				65A4AFE01C599544008080EC /* Show.swift in Sources */,
 				65A4AFCB1C598F86008080EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
